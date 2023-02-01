@@ -1,0 +1,27 @@
+Moonbot is an IRC bot fully programmed in Lua.
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Moonbot commands start with two dashes (--).
+Commands for Moonbot:
+
+ -* help: view this help menu
+ -* echo: echo the given argument(s)
+          example: --echo hello world!
+ -* remember: remember the given argument(s)
+          example: --remember something special
+	  in this example, remember will save
+	  "something special" to a note.
+	  The note's name will be determined by
+	  what you enter into the prompt afterwards.
+ -* shownote: read out the given note
+          example: --shownote my_note
+	  in this example, shownote will read
+	  the note out called "my_note" and
+	  send the contents to chat.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+The source code for this bot is available at https://github.com/luajerry/moonbot.
+It is licensed under the GNU General Public License version 3, which means
+you can freely modify the source code and redistribute it to your will, as long
+as you keep this license on your derivative works.

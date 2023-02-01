@@ -1,0 +1,15 @@
+                -- Moonbot --
+An IRC bot made in Lua. To start, make sure you
+have Lua >= 5.2 and LuaIRC installed. You can
+install LuaIRC through the dev server of LuaRocks:
+
+  # luarocks install --server=https://luarocks.org/dev luairc
+
+Make sure the bot is configured; change the
+'server' and 'chan' values according to what
+IRC server and channel you want the bot to listen
+on. Then to start the bot, run make:
+
+  $ make
+
+For help on bot usage, consult HELP, or run --help.
