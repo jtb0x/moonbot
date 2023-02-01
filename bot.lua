@@ -77,7 +77,7 @@ bot:hook("OnChat", function(user, channel, message)
 		local cmd = string.gsub(message, '%-%- *', '', 1)
 		if cmd == "help" then
 			log("cmds", string.format("%s (%s) called command '%s'", user.nick, user.username, cmd))
-			bot:sendChat(channel, "Help for my commands can be found at https://github.com/luajerry/moonbot/raw/main/HELP")
+			bot:sendChat(channel, "Help for my commands can be found at https://github.com/luajerry/moonbot/raw/master/HELP")
 		elseif getcmdarg(cmd, "echo") then
 			log("cmds", string.format("%s (%s) called command '%s'", user.nick, user.username, cmd))
 			bot:sendChat(channel, getcmdarg(cmd, "echo"))
